@@ -1,0 +1,23 @@
+<div class="col-md-8 col-sm-8 col-xs-12 content ">    
+                           <h1 class="news-title hidden-sm hidden-xs">Фантастика</h1>
+                           
+                        <article ng-repeat="film in films  | filter:{category:'serial'} |filter:{category:'film'}| filter: { genre: 'фантастика'} | filter:query">  
+                            <h2 class="name-article" ><a href="#/films/{{film.id}}">{{film.nameUa}}</a></h2>
+                            <a href="#/films/{{film.id}}"><img class="img-responsive" ng-src="{{film.imageUrl}}" alt="{{film.name}}"></a>                            
+                                    <p>      
+                                            <span>Назва: </span> {{film.name}} <br>   
+                                            <span>Рік:</span> {{film.year}} <br>  
+                                            <span>Країна:</span> {{film.country}} <br>  
+                                            <span>Режисери:</span> {{film.directors}}	<br>  
+                                            <span>Студія:</span> {{film.studio}} <br>  
+                                            <span>Жанр:</span> {{film.genre | filter:action}} <br>  
+                                            <span>Бюджет:</span> {{film.budget}} <br>  
+                                            <span>Прим'єра (в Україні):</span> {{film.premiereUA}} <br>  
+                                            <span>Прим'єра (в світі):</span> {{film.premiere}} <br>  
+                                            <span>Тривалість:</span> {{film.duration}} <br>  
+                                            <span>Вікові обмеження:</span> {{film.ageRestrictions}} <br>
+                                            <span>Опис фільму:</span> <br>
+                                            {{film.descriptionOfMovie}} <a href="#/films/{{film.id}}"> детальніше>> </a>
+                            </p>
+                        </article>   
+</div>

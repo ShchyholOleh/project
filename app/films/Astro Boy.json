@@ -1,0 +1,19 @@
+{ 
+                "id":"Astro Boy",
+                "nameUa":"Астробой",       
+               "name":"Astro Boy",
+               "imageUrl":"img/multfilms_posters/astroboy.jpg",
+               "year":"2009",
+               "video":"1AhqOHom9BY",
+               "country":"США, Японія, Гонконг",
+               "directors":"Девід Баверс",
+               "studio":"Imagi Animation Studios, Imagi Crystal",
+               "genre":"анімація",
+               "budget":"65 млн. долл. США",
+               "premiereUA":"12.11.2009",
+               "premiere":"05.10.2009",
+               "duration":"94 хв.",
+               "ageRestrictions":"немає",
+               "category":"cartoon", 
+               "descriptionOfMovie":"Фільм розповідає про хлопчика-робота, який був створений геніальним вченим в пам'ять про померлого сина. Пізнаючи світ людей, герой вчиться відчувати і співпереживати, і в результаті стає єдиним рятівником свого міста."
+    }

@@ -1,0 +1,19 @@
+{ 
+                "id":"Independence Day",
+                "nameUa":"День незалежності",       
+               "name":"Independence Day",
+               "imageUrl":"img/fantastic_posters/independence-day.jpg",
+               "year":"1996",
+               "video":"d-S9nKByu5w",
+               "country":"США",
+               "directors":"Роланд Еммеріх",
+               "studio":"20th Century Fox Film Corporation",
+               "genre":"бойовик, фантастика, пригоди",
+               "budget":"75 млн. долл. США",
+               "premiereUA":"25.06.1996",
+               "premiere":"25.06.1996",
+               "duration":"145 хв.",
+               "ageRestrictions":"12",
+               "category":"film", 
+               "descriptionOfMovie":"2 липня почався хаос. В небі над головними столицями світу зависли величезні об'єкти. Вони руйнували міста, вбивали людей, зводили всіх з розуму. Але ті, хто зміг пережити першу атаку інопланетян, відповідатимуть за Землю. Планета готова завдати удару у відповідь."
+    }

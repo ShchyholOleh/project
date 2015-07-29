@@ -1,0 +1,19 @@
+{ 
+                "id":"Alexander",
+                "nameUa":"Александр",       
+               "name":"Alexander",
+               "imageUrl":"img/history_posters/alexander.jpg",
+               "year":"2004",
+               "video":"Bh6LKIdxqCU",
+               "country":"США",
+               "directors":"Олівер Стоун",
+               "studio":" Warner Bros. Pictures",
+               "genre":"драма, історичний",
+               "budget":"155 млн. долл. США",
+               "premiereUA":"25.11.2004",
+               "premiere":"16.11.2004",
+               "duration":"175 хв.",
+               "ageRestrictions":"16",
+               "category":"film", 
+               "descriptionOfMovie":"Фільм про людину, яка усе життя домагалась своєї мрії. Який об'єднав Схід і Захід, який зумів перевернути історію. Людина яка хотіла стати Богом за життя..."
+    }

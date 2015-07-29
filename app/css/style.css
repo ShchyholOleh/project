@@ -1,0 +1,179 @@
+.navbar-inverse{
+    background-color: #919d9d;
+border: 2px solid #919d9d;
+-moz-box-shadow: 0px 0px 8px #000000;
+-webkit-box-shadow: 0px 0px 8px #000000;
+box-shadow: 0px 0px 8px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#919d9d', endColorstr = '#bcd1d1');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#919d9d', endColorstr = '#bcd1d1')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: -ms-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: -o-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#919d9d), to(#bcd1d1));
+background-image: -webkit-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: linear-gradient(top, #919d9d, #bcd1d1);
+
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #DBE8E8;
+    color: #fff;
+  
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+        background-color: #919d9d;
+border: 1px solid #919d9d;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#919d9d', endColorstr = '#bcd1d1');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#919d9d', endColorstr = '#bcd1d1')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: -ms-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: -o-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#919d9d), to(#bcd1d1));
+background-image: -webkit-linear-gradient(top, #919d9d, #bcd1d1);
+background-image: linear-gradient(top, #919d9d, #bcd1d1);
+}
+
+.list-group-item{
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.navbar-brand{
+   padding: 10px;
+  
+}
+.nav.navbar-nav.navbar-right a{
+    color: #555;
+
+}
+.nav.navbar-nav.navbar-right a:hover{
+    color: #555;
+
+}
+
+
+
+.input-group {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body{
+    padding-top: 60px;
+    background-color: #D7E8E8;
+}
+
+.customNavigation{
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#carousel img{  
+   border: 2px solid white;
+    -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+    height: 150px;
+    width: 120px;
+    
+}
+.img-responsive{
+margin: 15px;
+float: left;
+border: 2px solid #ddd;
+}
+
+.content {
+    background-color: #fff;
+   border: 1px solid #ddd;
+    -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0;
+    
+}
+
+.content p{
+    padding: 15px 15px 0 15px;
+    
+}
+
+ .content  p span {
+     font: 700 17px Calibri, Arial, sans-serif;
+    
+}
+
+.content h2{
+    padding: 0 15px 0 15px;
+}
+
+.content>article{
+    float: left;
+}
+
+
+
+.news-title{
+        color: #fff;
+        background-color: #919d9d;
+        border: 1px solid #919d9d;
+        /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#919d9d', endColorstr = '#bcd1d1');
+        /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+        /*Element must have a height (not auto)*/
+        /*All filters must be placed together*/
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#919d9d', endColorstr = '#bcd1d1')";
+        /*Element must have a height (not auto)*/
+        /*All filters must be placed together*/
+        background-image: -moz-linear-gradient(top, #919d9d, #bcd1d1);
+        background-image: -ms-linear-gradient(top, #919d9d, #bcd1d1);
+        background-image: -o-linear-gradient(top, #919d9d, #bcd1d1);
+        background-image: -webkit-gradient(linear, center top, center bottom, from(#919d9d), to(#bcd1d1));
+        background-image: -webkit-linear-gradient(top, #919d9d, #bcd1d1);
+        background-image: linear-gradient(top, #919d9d, #bcd1d1);
+        padding: 10px 50px;
+        margin: 0;
+         -webkit-border-radius: 5px 5px 0px 0px;
+         -moz-border-radius: 5px 5px 0px 0px;
+         border-radius: 5px 5px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

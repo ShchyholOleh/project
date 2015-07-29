@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en" ng-app="filmsApp">
+<head>
+  <meta charset="utf-8">
+  <title>ua-films</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+   <link rel="stylesheet" href="css/font-awesome.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.css">
+     <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+ 
+  
+  <header class="container-fluid">
+  <!-- Navigation -->   
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#/films"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            
+             
+           
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#/films">Головна    <i class="fa fa-home"></i></a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#/films" class="dropdown-toggle" data-toggle="dropdown">Фільми  <i class="fa fa-video-camera"></i>   <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/films/action">Бойовики</a></li>
+                            <li><a href="#/films/military">Військові</a></li>
+                            <li><a href="#/films/detective">Детективи</a></li>
+                            <li><a href="#/films/documentary">Документальні</a></li>
+                            <li><a href="#/films/drama">Драми</a></li>
+                            <li><a href="#/films/horror">Жахи</a></li>
+                            <li><a href="#/films/history">Історичні</a></li>
+                            <li><a href="#/films/crime">Кримінальні</a></li>
+                            <li><a href="#/films/adventure">Пригоди</a></li>
+                            <li><a href="#/films/thriller">Триллери</a></li>
+                           <li><a href="#/films/fantastic">Фантастика</a></li>
+                            <li><a href="#/films/fantasy">Фентезі</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#/cartoons" class="dropdown-toggle" data-toggle="dropdown">Мультфільми   <i class="fa fa-picture-o"></i> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/cartoons/feature">Односерійні</a></li>
+                            <li><a href="#/cartoons/serial">Багатосерійні</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#/serials" class="dropdown-toggle" data-toggle="dropdown">Серіали    <i class="fa fa-film"></i><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/serials/detective">Дедективи</a></li>
+                            <li><a href="#/serials/history">Історичні</a></li>
+                            <li><a href="#/serials/drama">Драми</a></li>
+                            <li><a href="#/serials/horror">Жахи</a></li>
+                            <li><a href="#/serials/fantastic">Фантастика</a></li>
+                        </ul>
+                    </li>                   
+                </ul>
+                   
+                    <form class="navbar-form navbar-right  hidden-sm hidden-xs ">
+                        <input type="text" placeholder="Пошук..." class="form-control " data-ng-model="query">
+                    </form>                                     
+                </div>
+       </nav>              
+     
+<!--Сarousel-->
+
+<div id="carousel" class="owl-carousel owl-theme">
+  <div class="item"><a href="#/films/G.I. Joe Retaliation  G.I. Joe 2"><img src="img/action_posters/Kobra2.png" alt=""></a></div>
+  <div class="item"><a href="#/films/The Expendables"><img src="img/action_posters/nestrymni.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/King Kong"><img src="img/adventure_posters/king-kong.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/The Avengers  Marvel's The Avengers"><img src="img/action_posters/mesny-ky-.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Cloud Atlas"><img src="img/detective_posters/hmarny-j.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Independence Day"><img src="img/fantastic_posters/independence-day.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Angels & Demons"><img src="img/detective_posters/angelsdemons.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Changeling"><img src="img/detective_posters/pidmina.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Незламна"><img src="img/drama_posters/nezlamna.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Master and commander"><img src="img/history_posters/the-far-side-of-the-world-.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Total Recall"><img src="img/action_posters/totalrecall.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Pohwasogeuro"><img src="img/documentary_posters/in_fire.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/The Dark Knight"><img src="img/fantastic_posters/batman.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Chappie"><img src="img/fantastic_posters/Chappi.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Hachi A Dog's Tale"><img src="img/drama_posters/hatiko.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Pearl Harbor"><img src="img/military_posters/perl-harbor.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Elementary"><img src="img/serials_posters/elementary.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/The Ring"><img src="img/horror_posters/dzvinok.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Hellboy"><img src="img/fantasy_posters/hellboy.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Finding Nemo"><img src="img/multfilms_posters/finding-nemo.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Supernatural"><img src="img/serials_posters/supernatural.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Transformers"><img src="img/fantastic_posters/transformers.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Harry Potter and the Prisoner of Azkaban"><img src="img/fantasy_posters/harry-potter-and-the-prisoner-of-azkaban.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Scent of a Woman"><img src="img/drama_posters/scent_of_a_woman.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Madagascar Escape 2 Africa"><img src="img/multfilms_posters/madagascar_3a-escape-2-africa-825507.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Pirates of the Caribbean The Curse of the Black Pearl"><img src="img/fantasy_posters/piratu.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/U-571"><img src="img/military_posters/u-571.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Bear"><img src="img/horror_posters/bear.jpg" alt=""></a></div>
+  <div class="item"><a href="#/films/Spoils of War"><img src="img/military_posters/1344717930_spoils-of-war.jpg" alt=""></a></div>
+</div>
+
+ </header>
+ 
+ 
+ <div class="container-fluid">
+      
+        <div class="row">
+            <div class="col-md-2 hidden-sm hidden-xs">
+                 <div class="list-group">
+                    <a class="list-group-item active" href="#/films">Також читайте</a>
+                    <a class="list-group-item" href="#/filmsTop">Топ 100 найкращих фільмів</a>
+                    <a class="list-group-item" href="#/cartoonstop">Топ 50 найкращих мультфільмів</a>
+                    <a class="list-group-item" href="#/filmtop50dearest">Топ 50 найкасовіших фільмів</a>
+                    <a class="list-group-item" href="#/serialstop50">Топ 50 найкращих серіалів</a>
+                    <a class="list-group-item" href="#/top2015">Топ 10 найкращих фільмів 2015</a>
+                    <a class="list-group-item" href="#/top2014">Топ 10 найкращих фільмів 2014</a>
+                    <a class="list-group-item" href="#/top2013">Топ 10 найкращих фільмів 2013</a>
+                </div>
+            </div>
+            
+               <div ng-view></div>
+                               
+
+            <div class="col-md-2 hidden-sm hidden-xs" >
+                <div class="list-group">
+                    <a class="list-group-item active" href="#/films">Жанри фільмів</a>
+                    <a class="list-group-item" href="#/films/action">Бойовики</a>
+                    <a class="list-group-item" href="#/films/military">Військові</a>
+                    <a class="list-group-item" href="#/films/detective">Дедективи</a>
+                    <a class="list-group-item" href="#/films/documentary">Документальні</a>
+                    <a class="list-group-item" href="#/films/drama">Драми</a>
+                    <a class="list-group-item" href="#/films/horror">Жахи</a>
+                    <a class="list-group-item" href="#/films/history">Історичні</a>
+                    <a class="list-group-item" href="#/films/crime">Кримінальні</a>
+                    <a class="list-group-item" href="#/films/adventure">Пригоди</a>
+                    <a class="list-group-item" href="#/films/thriller">Триллери</a>
+                    <a class="list-group-item" href="#/films/fantastic">Фантастика</a>
+                    <a class="list-group-item" href="#/films/fantasy">Фентезі</a>
+                    <a class="list-group-item" href="#/cartoons">Мультфільми</a>
+                    <a class="list-group-item" href="#/serials">Серіали</a>
+                </div>
+            </div>
+
+            
+        
+      
+     
+     </div>
+ </div>
+   <script src="bower_components/angular/angular.js"></script>
+   <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/directives.js"></script>  
+  <script src="https://www.youtube.com/iframe_api"></script>
+<script src="bower_components/angular-youtube-mb/src/angular-youtube-embed.js"></script>
+ <script src="bower_components/jquery/dist/jquery.js"></script>
+ <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+ <script src="js/main.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+</body>
+</html>

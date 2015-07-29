@@ -1,0 +1,19 @@
+ { 
+                "id":"Harry Potter and the Prisoner of Azkaban",
+                "nameUa":"Гаррі Поттер і в’язень Азкабану",       
+               "name":"Harry Potter and the Prisoner of Azkaban",
+               "imageUrl":"img/fantasy_posters/harry-potter-and-the-prisoner-of-azkaban.jpg",
+               "year":"2004",
+               "video":"lAxgztbYDbs",
+               "country":"США",
+               "directors":"Альфонсо Куарон",
+               "studio":"Warner Bros. Pictures ",
+               "genre":"фентезі, пригоди",
+               "budget":"130 млн. долл. США",
+               "premiereUA":"04.06.2004",
+               "premiere":"31.05.2004",
+               "duration":"142 хв.",
+               "ageRestrictions":"12",
+               "category":"film", 
+               "descriptionOfMovie":"Йде третій рік навчання в школі чарівників Хогвардс і ніщо не провіщає біди... Непомітно над школою повисла зловісна тінь загрози. Небезпечний вбивця Сіріус Блек утік із фортеці Азкабан, темниці Чарівників, з однією єдиною метою, знайти Гарі Поттера і..."
+    }

@@ -1,0 +1,19 @@
+{ 
+                "id":"Troy",
+                "nameUa":"Троя",       
+               "name":"Troy",
+               "imageUrl":"img/history_posters/troy.jpg",
+               "year":"2004",
+               "video":"aiyQOumuSN4",
+               "country":"США, Мальта, Великобританія",
+               "directors":"Вольфганг Петерсен",
+               "studio":" Warner Bros. Pictures, Helena Productions, Latina Pictures",
+               "genre":"драма, історичний",
+               "budget":"175 млн. долл. США",
+               "premiereUA":"20.05.2004",
+               "premiere":"09.05.2004",
+               "duration":"163 хв.",
+               "ageRestrictions":"16",
+               "category":"film", 
+               "descriptionOfMovie":"1193 рік до н.е. Принц Трої Паріс викрав свою кохану Олену у її чоловіка Менелая, що породило початок тривалої кривавої війни між греками і троянцями."
+    }

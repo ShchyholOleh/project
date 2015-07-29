@@ -1,0 +1,19 @@
+{ 
+                "id":"Prison Break",
+                "nameUa":"Втеча з в′язниці",       
+               "name":"Prison Break",
+               "imageUrl":"img/serials_posters/prison-break.jpg",
+               "year":"2005",
+               "video":"AL9zLctDJaU",
+               "country":"США",
+               "directors":"Пол Шойрінг",
+               "studio":"20th Century Fox Television",
+               "genre":"драма, триллер",
+               "budget":"",
+               "premiereUA":"29.08.2005",
+               "premiere":"29.08.2005",
+               "duration":"серія 43 хв.",
+               "ageRestrictions":"16",
+               "category":"serial", 
+               "descriptionOfMovie":"Талановитий інженер будівельної компанії Майкл Скофілд грабує банк. Він потрапляє у вязницю, в якій знаходиться його рідний брат Лінкольн Барроуз, відбуваючий термін за вбивство брата віце-прем'єра США. Майкл знає що брата підставили. Він вирішує врятувати Лінкольна і влаштувати втечу з в'язниці"
+    }

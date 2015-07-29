@@ -1,0 +1,19 @@
+{ 
+                "id":"Heroes",
+                "nameUa":"Герої",       
+               "name":"Heroes",
+               "imageUrl":"img/serials_posters/heroes.jpg",
+               "year":"2006",
+               "video":"4FLHB2zB_cA",
+               "country":"США",
+               "directors":"Грег Біман, Аллан Аркуш, Жаннот Шварц",
+               "studio":"NBC Universal Television",
+               "genre":"драма, фантастика",
+               "budget":"",
+               "premiereUA":"20.01.2008",
+               "premiere":"20.09.2006",
+               "duration":"серія 43 хв.",
+               "ageRestrictions":"16",
+               "category":"serial", 
+               "descriptionOfMovie":"Вони думали, що вони такі ж, як і всі інші...думали до тих пір, поки не виявили в собі супер-здібності. Багато з них отримали величезну силу, але далеко не всі з них хочуть використати її на користь"
+    }

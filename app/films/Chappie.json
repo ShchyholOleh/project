@@ -1,0 +1,19 @@
+{ 
+                "id":"Chappie",
+                "nameUa":"Робот Чаппі",       
+               "name":"Chappie",
+               "imageUrl":"img/fantastic_posters/Chappi.jpg",
+               "year":"2015",
+               "video":"S8bA9diyR6s",
+               "country":"США",
+               "directors":"Ніл Бломкамп",
+               "studio":"Sony Pictures",
+               "genre":"триллер, бойовик, фантастика",
+               "budget":"49 млн. долл. США",
+               "premiereUA":"12.03.2015",
+               "premiere":"04.03.2015",
+               "duration":"120 хв.",
+               "ageRestrictions":"16",
+               "category":"film", 
+               "descriptionOfMovie":"В дитинстві Чаппі всиновлює дуже незвичайна родина, він росте здібним, добрим і чуйним... роботом. Потужність і інтелект Чаппі становлять інтерес для мафіозного угруповання. Їхня мета - використати машину у своїй злочинній діяльності."
+    }
